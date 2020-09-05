@@ -3,12 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectGuid>{79E963CD-2AE3-4DD3-90FA-601F71C4FD3F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <StartupObject>
     </StartupObject>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace>Prework_DSA</RootNamespace>
     <AssemblyName>ConsoleApplication</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
@@ -63,6 +62,20 @@
     <Import Include="System.Diagnostics" />
     <Import Include="System.Linq" />
     <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\Prework DSA\v16\TestStore\0\000.testlog" />
+    <None Include=".vs\Prework DSA\v16\TestStore\0\testlog.manifest" />
+    <None Include=".vs\Prework\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\Prework\v16\.suo" />
+    <None Include=".vs\Prework\v16\TestStore\0\000.testlog" />
+    <None Include=".vs\Prework\v16\TestStore\0\testlog.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
   <ProjectExtensions>
