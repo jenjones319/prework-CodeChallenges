@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace oNotation
+namespace ConsoleApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] numbers = new string[5];
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = Console.ReadLine();
+            }
+            for (int = 0; int < numbers.Length; i++)
         }
     }
 }
